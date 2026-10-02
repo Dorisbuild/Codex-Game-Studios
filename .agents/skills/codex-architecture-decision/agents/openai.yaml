@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Architecture Decision"
+  short_description: "Create an ADR documenting a technical decision: context,..."

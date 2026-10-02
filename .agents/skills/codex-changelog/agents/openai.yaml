@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Changelog"
+  short_description: "Auto-generate a changelog from git commits and sprint data...."

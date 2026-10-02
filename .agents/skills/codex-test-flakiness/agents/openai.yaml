@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Test Flakiness"
+  short_description: "Find flaky tests from CI logs"

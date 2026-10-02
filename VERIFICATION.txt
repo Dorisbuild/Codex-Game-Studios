@@ -1,0 +1,131 @@
+# Codex Game Studios 1.1.0 — Independent Skill Library Verification
+
+Date: 2026-10-03
+Workspace: `<workspace-root>`
+Environment: Windows / PowerShell; Python 3.12.10; Node.js 24.14.1; Git Bash 5.2.21
+
+## 1. Repository boundary
+
+- The published snapshot uses a clean-root commit; migration history remains
+  in backups outside the workspace and is not part of the distribution.
+- The framework is engine-neutral and contains no game, engine fixture, or
+  historical demo. New games must use `tools/create_game_workspace.py` to get
+  an isolated workspace.
+- MIT `LICENSE` and `NOTICE.md` are retained. Release packages exclude `.git`,
+  remotes, local overrides, session logs, and credentials.
+- Project artifacts are English-first. Player-facing text is kept
+  localization-ready for a later `$codex-localize` pass.
+
+## 2. Framework structure and automation
+
+- 75 `codex-*` skills and 49 Codex TOML roles.
+- 54 workflow steps, 124 behavior specification entries, and 126 references.
+- Python regression suite: 113 tests.
+- The single-pass dispatcher is `tools/codex-studio/orchestrate.py`. From the
+  framework root it reports `needs_engine` → `$codex-setup-engine`; it is not a
+  background worker and never creates a game automatically.
+- The dispatcher's `--root` option is for an explicitly supplied independent
+  game workspace, not for a historical sample inside this maintenance checkout.
+
+Verification commands:
+
+```text
+python tools/verify_codex_studio.py
+EXIT: 0
+OUTPUT: skills=75, workflow_steps=54, agents=49, catalog=124, references=126
+
+python -m unittest discover -s tests -p "test_*.py" -q
+EXIT: 0
+RESULT: Ran 113 tests — OK
+
+python tools/codex-studio/orchestrate.py --once --text
+EXIT: 0
+RESULT: state=needs_engine; skill=$codex-setup-engine
+```
+
+## 3. Clean framework tree
+
+- The old game directory, HTML prototype, Godot project source, and runtime
+  screenshots were removed from this maintenance repository.
+- No engine or visual evidence is stored in this framework checkout; future game
+  workspaces own their own `production/qa/evidence/` records.
+- The packager and portability tests retain generic support for an optional
+  game tree supplied by a future maintainer; that capability is not a bundled
+  game.
+
+## 4. Distribution package
+
+```text
+python tools/package_studio.py --output dist/Codex-Game-Studios.zip --force
+EXIT: 0
+FILES: see command output
+SHA256: see adjacent dist/Codex-Game-Studios.zip.sha256 sidecar
+```
+
+The current package contains skills, roles, references, tests, tools, legal
+files, and framework documentation. It contains no `.git`, `demo/`, build
+output, Godot cache, session state, or local credentials. The packager can
+include an explicitly supplied optional game tree, but never creates a remote
+or pushes to GitHub. The archive's `VERIFICATION.txt` is a snapshot taken at
+package time; use the adjacent sidecar for the final archive hash.
+
+## 5. Clean-room workspace creator
+
+`tools/create_game_workspace.py` copies skills, roles, references, tests,
+helpers, and legal files, then generates an engine-neutral `project.yaml`,
+English-first `START_HERE.md`, and a per-file SHA-256 manifest. It rejects an
+existing target, source-inside/source-ancestor targets, and symlink/junction
+paths. It never initializes Git, configures a remote, installs global skills,
+starts a Codex thread, or deletes a destination. The default mode is dry-run.
+
+```text
+python -m unittest tests.test_game_workspace -v
+EXIT: 0
+RESULT: Ran 13 tests — OK
+
+python tools/create_game_workspace.py --output <new-path>
+EXIT: 0
+RESULT: PLAN: clean Codex game workspace (dry-run; no files written)
+
+python tools/create_game_workspace.py --verify <created-path>
+EXIT: 0
+RESULT: VERIFY: PASS — manifest hashes and clean-template inventory match <created-path>
+
+# Run from the new workspace root
+python tools/codex-studio/orchestrate.py --once --text
+EXIT: 0
+RESULT: state=needs_engine; skill=$codex-setup-engine
+```
+
+These commands prove workspace isolation and file integrity only. `START_HERE.md`
+requires the new window to save Skill selectors, approvals, delegation, input
+hashes, diffs, checkpoints, and command output under that game's
+`production/provenance/`. Without a host transcript, the run must be marked
+`NOT ASSESSED`; file shape is not Skill invocation evidence.
+
+## 6. Non-forging provenance receipt helper
+
+`tools/codex-studio/provenance_receipt.py` creates only a `NOT ASSESSED`
+`receipt.json` / `receipt.md` shell, records declared input SHA-256 values, and
+strictly checks host-copied transcript, diff, checkpoints, and command exit
+codes. It never generates a transcript or upgrades a receipt to `VERIFIED`.
+
+```text
+python -m unittest tests.test_provenance_receipt -q
+EXIT: 0
+RESULT: Ran 5 tests — OK
+```
+
+The five regression cases cover missing initial evidence, path traversal,
+synthetic summary transcripts, missing Skill hashes, and a complete host-export
+fixture. The full workspace suite includes this CLI (113 tests).
+
+## 7. Honest boundary
+
+This repository verifies the Codex Game Studios skills, roles, references,
+dispatcher, workspace creator, packager, and provenance tools. It does not
+claim an engine, game design, playable build, screenshots, payments, online
+services, or store integration. Open the generated game workspace in a new
+Codex window, run `$codex-start`, and follow
+`docs/codex-studio/clean-room-workflow.md` while retaining the required
+evidence.

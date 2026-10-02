@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Ux Review"
+  short_description: "Validate a UX spec, HUD design or pattern library"

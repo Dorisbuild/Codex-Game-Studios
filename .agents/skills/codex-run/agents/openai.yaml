@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Run"
+  short_description: "Run one safe step and save a Codex checkpoint."

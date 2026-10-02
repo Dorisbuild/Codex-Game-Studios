@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Asset Spec"
+  short_description: "Per-asset visual specs plus AI generation prompts from GDDs..."

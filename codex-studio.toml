@@ -1,0 +1,8 @@
+name = "Codex Game Studios"
+slug = "Codex-Game-Studios"
+version = "1.1.0"
+skill_namespace = "codex-"
+skill_count = 75
+agent_count = 49
+python_requires = ">=3.11"
+license = "MIT"

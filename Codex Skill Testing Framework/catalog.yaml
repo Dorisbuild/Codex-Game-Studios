@@ -1,0 +1,1232 @@
+version: 2
+last_updated: ""
+skills:
+  # Critical — gate skills that control phase transitions
+  - name: codex-gate-check
+    spec: Codex Skill Testing Framework/skills/gate/codex-gate-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: gate
+
+  - name: codex-design-review
+    spec: Codex Skill Testing Framework/skills/review/codex-design-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: review
+
+  - name: codex-story-readiness
+    spec: Codex Skill Testing Framework/skills/readiness/codex-story-readiness.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: readiness
+
+  - name: codex-story-done
+    spec: Codex Skill Testing Framework/skills/readiness/codex-story-done.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: readiness
+
+  - name: codex-review-all-gdds
+    spec: Codex Skill Testing Framework/skills/review/codex-review-all-gdds.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: review
+
+  - name: codex-architecture-review
+    spec: Codex Skill Testing Framework/skills/review/codex-architecture-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: review
+
+  # High — pipeline-critical skills
+  - name: codex-create-epics
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-create-epics.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-create-stories
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-create-stories.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-dev-story
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-dev-story.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-create-control-manifest
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-create-control-manifest.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-propagate-design-change
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-propagate-design-change.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-architecture-decision
+    spec: Codex Skill Testing Framework/skills/authoring/codex-architecture-decision.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: authoring
+
+  - name: codex-map-systems
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-map-systems.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-vertical-slice
+    spec: Codex Skill Testing Framework/skills/pipeline/codex-vertical-slice.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: codex-design-system
+    spec: Codex Skill Testing Framework/skills/authoring/codex-design-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: authoring
+
+  - name: codex-consistency-check
+    spec: Codex Skill Testing Framework/skills/analysis/codex-consistency-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: analysis
+
+  # Medium — team and sprint management skills
+  - name: codex-sprint-plan
+    spec: Codex Skill Testing Framework/skills/sprint/codex-sprint-plan.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: sprint
+
+  - name: codex-sprint-status
+    spec: Codex Skill Testing Framework/skills/sprint/codex-sprint-status.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: sprint
+
+  - name: codex-team-ui
+    spec: Codex Skill Testing Framework/skills/team/codex-team-ui.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-combat
+    spec: Codex Skill Testing Framework/skills/team/codex-team-combat.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-narrative
+    spec: Codex Skill Testing Framework/skills/team/codex-team-narrative.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-audio
+    spec: Codex Skill Testing Framework/skills/team/codex-team-audio.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-level
+    spec: Codex Skill Testing Framework/skills/team/codex-team-level.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-polish
+    spec: Codex Skill Testing Framework/skills/team/codex-team-polish.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-release
+    spec: Codex Skill Testing Framework/skills/team/codex-team-release.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-live-ops
+    spec: Codex Skill Testing Framework/skills/team/codex-team-live-ops.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: codex-team-qa
+    spec: Codex Skill Testing Framework/skills/team/codex-team-qa.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  # Low — analysis, reporting, utility skills
+  - name: codex-skill-test
+    spec: Codex Skill Testing Framework/skills/utility/codex-skill-test.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: utility
+
+  - name: codex-skill-improve
+    spec: Codex Skill Testing Framework/skills/utility/codex-skill-improve.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-start
+    spec: Codex Skill Testing Framework/skills/utility/codex-start.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-help
+    spec: Codex Skill Testing Framework/skills/utility/codex-help.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-brainstorm
+    spec: Codex Skill Testing Framework/skills/utility/codex-brainstorm.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-project-stage-detect
+    spec: Codex Skill Testing Framework/skills/utility/codex-project-stage-detect.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-setup-engine
+    spec: Codex Skill Testing Framework/skills/utility/codex-setup-engine.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-quick-design
+    spec: Codex Skill Testing Framework/skills/authoring/codex-quick-design.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: codex-ux-design
+    spec: Codex Skill Testing Framework/skills/authoring/codex-ux-design.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: codex-ux-review
+    spec: Codex Skill Testing Framework/skills/authoring/codex-ux-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: codex-art-bible
+    spec: Codex Skill Testing Framework/skills/authoring/codex-art-bible.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: codex-create-architecture
+    spec: Codex Skill Testing Framework/skills/authoring/codex-create-architecture.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: codex-code-review
+    spec: Codex Skill Testing Framework/skills/analysis/codex-code-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-balance-check
+    spec: Codex Skill Testing Framework/skills/analysis/codex-balance-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-asset-audit
+    spec: Codex Skill Testing Framework/skills/analysis/codex-asset-audit.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-content-audit
+    spec: Codex Skill Testing Framework/skills/analysis/codex-content-audit.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-tech-debt
+    spec: Codex Skill Testing Framework/skills/analysis/codex-tech-debt.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-scope-check
+    spec: Codex Skill Testing Framework/skills/analysis/codex-scope-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-estimate
+    spec: Codex Skill Testing Framework/skills/analysis/codex-estimate.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-perf-profile
+    spec: Codex Skill Testing Framework/skills/analysis/codex-perf-profile.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-security-audit
+    spec: Codex Skill Testing Framework/skills/analysis/codex-security-audit.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-test-evidence-review
+    spec: Codex Skill Testing Framework/skills/analysis/codex-test-evidence-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-test-flakiness
+    spec: Codex Skill Testing Framework/skills/analysis/codex-test-flakiness.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: codex-reverse-document
+    spec: Codex Skill Testing Framework/skills/utility/codex-reverse-document.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-bug-report
+    spec: Codex Skill Testing Framework/skills/utility/codex-bug-report.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-hotfix
+    spec: Codex Skill Testing Framework/skills/utility/codex-hotfix.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-prototype
+    spec: Codex Skill Testing Framework/skills/utility/codex-prototype.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-playtest-report
+    spec: Codex Skill Testing Framework/skills/utility/codex-playtest-report.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-milestone-review
+    spec: Codex Skill Testing Framework/skills/sprint/codex-milestone-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: codex-retrospective
+    spec: Codex Skill Testing Framework/skills/sprint/codex-retrospective.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: codex-changelog
+    spec: Codex Skill Testing Framework/skills/sprint/codex-changelog.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: codex-patch-notes
+    spec: Codex Skill Testing Framework/skills/sprint/codex-patch-notes.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: codex-onboard
+    spec: Codex Skill Testing Framework/skills/utility/codex-onboard.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-localize
+    spec: Codex Skill Testing Framework/skills/utility/codex-localize.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-launch-checklist
+    spec: Codex Skill Testing Framework/skills/utility/codex-launch-checklist.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-release-checklist
+    spec: Codex Skill Testing Framework/skills/utility/codex-release-checklist.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-adopt
+    spec: Codex Skill Testing Framework/skills/utility/codex-adopt.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-smoke-check
+    spec: Codex Skill Testing Framework/skills/utility/codex-smoke-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-soak-test
+    spec: Codex Skill Testing Framework/skills/utility/codex-soak-test.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-test-setup
+    spec: Codex Skill Testing Framework/skills/utility/codex-test-setup.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-test-helpers
+    spec: Codex Skill Testing Framework/skills/utility/codex-test-helpers.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-regression-suite
+    spec: Codex Skill Testing Framework/skills/utility/codex-regression-suite.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-qa-plan
+    spec: Codex Skill Testing Framework/skills/utility/codex-qa-plan.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-bug-triage
+    spec: Codex Skill Testing Framework/skills/utility/codex-bug-triage.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-asset-spec
+    spec: Codex Skill Testing Framework/skills/utility/codex-asset-spec.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-day-one-patch
+    spec: Codex Skill Testing Framework/skills/utility/codex-day-one-patch.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-settings
+    spec: Codex Skill Testing Framework/skills/utility/codex-settings.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: codex-run
+    spec: Codex Skill Testing Framework/skills/utility/codex-run.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: utility
+
+agents:
+  # Tier 1 Directors
+  - name: creative-director
+    spec: Codex Skill Testing Framework/agents/directors/creative-director.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: director
+
+  - name: technical-director
+    spec: Codex Skill Testing Framework/agents/directors/technical-director.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: director
+
+  - name: producer
+    spec: Codex Skill Testing Framework/agents/directors/producer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: director
+
+  - name: art-director
+    spec: Codex Skill Testing Framework/agents/directors/art-director.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: director
+
+  # Tier 2 Leads
+  - name: lead-programmer
+    spec: Codex Skill Testing Framework/agents/leads/lead-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  - name: qa-lead
+    spec: Codex Skill Testing Framework/agents/leads/qa-lead.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  - name: narrative-director
+    spec: Codex Skill Testing Framework/agents/leads/narrative-director.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  - name: audio-director
+    spec: Codex Skill Testing Framework/agents/leads/audio-director.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  - name: game-designer
+    spec: Codex Skill Testing Framework/agents/leads/game-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  - name: systems-designer
+    spec: Codex Skill Testing Framework/agents/leads/systems-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  - name: level-designer
+    spec: Codex Skill Testing Framework/agents/leads/level-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: lead
+
+  # Core Specialists
+  - name: gameplay-programmer
+    spec: Codex Skill Testing Framework/agents/specialists/gameplay-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: ai-programmer
+    spec: Codex Skill Testing Framework/agents/specialists/ai-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: technical-artist
+    spec: Codex Skill Testing Framework/agents/specialists/technical-artist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: sound-designer
+    spec: Codex Skill Testing Framework/agents/specialists/sound-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: engine-programmer
+    spec: Codex Skill Testing Framework/agents/specialists/engine-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: tools-programmer
+    spec: Codex Skill Testing Framework/agents/specialists/tools-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: network-programmer
+    spec: Codex Skill Testing Framework/agents/specialists/network-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: security-engineer
+    spec: Codex Skill Testing Framework/agents/qa/security-engineer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: accessibility-specialist
+    spec: Codex Skill Testing Framework/agents/qa/accessibility-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: ux-designer
+    spec: Codex Skill Testing Framework/agents/specialists/ux-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: ui-programmer
+    spec: Codex Skill Testing Framework/agents/specialists/ui-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: performance-analyst
+    spec: Codex Skill Testing Framework/agents/specialists/performance-analyst.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  # Engine Specialists — Godot
+  - name: godot-specialist
+    spec: Codex Skill Testing Framework/agents/engine/godot/godot-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: godot-gdscript-specialist
+    spec: Codex Skill Testing Framework/agents/engine/godot/godot-gdscript-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: godot-csharp-specialist
+    spec: Codex Skill Testing Framework/agents/engine/godot/godot-csharp-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: godot-shader-specialist
+    spec: Codex Skill Testing Framework/agents/engine/godot/godot-shader-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: godot-gdextension-specialist
+    spec: Codex Skill Testing Framework/agents/engine/godot/godot-gdextension-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  # Engine Specialists — Unity
+  - name: unity-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unity/unity-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: unity-ui-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unity/unity-ui-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: unity-shader-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unity/unity-shader-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: unity-dots-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unity/unity-dots-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: unity-addressables-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unity/unity-addressables-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  # Engine Specialists — Unreal
+  - name: unreal-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unreal/unreal-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: ue-blueprint-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unreal/ue-blueprint-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: ue-gas-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unreal/ue-gas-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: ue-umg-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unreal/ue-umg-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  - name: ue-replication-specialist
+    spec: Codex Skill Testing Framework/agents/engine/unreal/ue-replication-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: engine
+
+  # Operations
+  - name: devops-engineer
+    spec: Codex Skill Testing Framework/agents/operations/devops-engineer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  - name: release-manager
+    spec: Codex Skill Testing Framework/agents/operations/release-manager.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  - name: live-ops-designer
+    spec: Codex Skill Testing Framework/agents/operations/live-ops-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  - name: community-manager
+    spec: Codex Skill Testing Framework/agents/operations/community-manager.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  - name: analytics-engineer
+    spec: Codex Skill Testing Framework/agents/operations/analytics-engineer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  - name: economy-designer
+    spec: Codex Skill Testing Framework/agents/operations/economy-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  - name: localization-lead
+    spec: Codex Skill Testing Framework/agents/operations/localization-lead.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: operations
+
+  # QA & Creative
+  - name: qa-tester
+    spec: Codex Skill Testing Framework/agents/qa/qa-tester.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: qa
+
+  - name: prototyper
+    spec: Codex Skill Testing Framework/agents/specialists/prototyper.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: writer
+    spec: Codex Skill Testing Framework/agents/specialists/writer.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist
+
+  - name: world-builder
+    spec: Codex Skill Testing Framework/agents/specialists/world-builder.md
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    category: specialist

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Architecture Review"
+  short_description: "Traceability matrix mapping GDD requirements to ADRs. Finds..."

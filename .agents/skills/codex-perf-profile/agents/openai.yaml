@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Perf Profile"
+  short_description: "Performance profiling for game development"

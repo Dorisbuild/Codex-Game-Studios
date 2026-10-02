@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Create Architecture"
+  short_description: "Author the architecture blueprint before code is written...."

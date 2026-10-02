@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Estimate"
+  short_description: "Estimate task effort from complexity, dependencies,..."

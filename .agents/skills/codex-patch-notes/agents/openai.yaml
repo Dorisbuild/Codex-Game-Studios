@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Patch Notes"
+  short_description: "Player-facing patch notes from git history and changelogs...."

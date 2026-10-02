@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Smoke Check"
+  short_description: "Critical-path smoke gate before QA hand-off"

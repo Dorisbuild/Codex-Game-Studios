@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Localize"
+  short_description: "Localization pipeline for game development"

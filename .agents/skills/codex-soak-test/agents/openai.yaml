@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Soak Test"
+  short_description: "Soak test protocol for extended play"

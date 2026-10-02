@@ -1,0 +1,3 @@
+interface:
+  display_name: "Codex Test Evidence Review"
+  short_description: "Quality review of test files and evidence"
